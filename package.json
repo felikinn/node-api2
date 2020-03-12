@@ -1,0 +1,11 @@
+{
+  "name": "node-api2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/felikinn/node-api2.git",
+  "author": "felikin <jvfelix42@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
