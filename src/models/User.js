@@ -4,16 +4,19 @@ const UserSchema = new mongooose.Schema(
     {
         nome: {
             type: String,
-            required: true,
+           
         },
-        cidade:{
+        email:{
             type: String,
+            require: true
 
         },
-        idade: {
-            type: Number
+        cargo: {
+            type: String
 
         }
+    },{
+        timestamps:true
     }
 
 )
